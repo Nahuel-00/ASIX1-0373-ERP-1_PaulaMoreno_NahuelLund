@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+#body{
+    background-color: rgb(190, 255, 254);
+    font-family: 'Madimi One', sans-serif;
+ 
+}
+#titulo-tabla{
+    text-align: center;
+    background-color: aqua;
+    
+}
+
+#tabla:hover{
+    background-color: #8ac1f5;
+    
+
+}
+
+#tabla{
+    border: solid black 2px;
+
+}
+
+.principal{
+
+    padding-left: 22%;
+    padding-right: 22%;
+    
+}
+
+.titulos-tabla {
+    text-align: left;
+}
+
+#primer-T{
+    padding-bottom: 4%;
+    padding-top: 3%;
+    padding-left: 22%;
+    
+}
+
+
+
+
+
+    
+  
+
