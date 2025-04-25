@@ -1,49 +1,87 @@
-@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
-
-#body{
-    background-color: rgb(190, 255, 254);
-    font-family: 'Madimi One', sans-serif;
- 
-}
-#titulo-tabla{
-    text-align: center;
-    background-color: aqua;
-    
-}
-
-#tabla:hover{
-    background-color: #8ac1f5;
-    
-
-}
-
-#tabla{
-    border: solid black 2px;
-
-}
-
-.principal{
-
-    padding-left: 22%;
-    padding-right: 22%;
-    
-}
-
-.titulos-tabla {
-    text-align: left;
-}
-
-#primer-T{
-    padding-bottom: 4%;
-    padding-top: 3%;
-    padding-left: 22%;
-    
-}
-
-
-
-
-
-    
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
   
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #bcfcff;
+    color: black;
+    border: solid black 2px;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  
+  section {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  h2 {
+    color: #7cedf3;
+    margin-top: 0;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    border-radius: 8px;
+  }
 
+  table:hover {
+    background-color: #d1ecff;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-radius: 8px;
+    text-align: justify;
+  }
+  
+  th {
+    background-color: #bcfcff;
+    color: black;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: justify;
+  }
+
+  footer {
+    background-color: #bcfcff;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 15px;
+    border-radius: 6px;
+    margin: 20px auto 10px;
+    text-align: center;
+    max-width: 750px;
+    font-size: 0.95rem;
+  }
+  
+  .foot {
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
